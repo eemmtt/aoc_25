@@ -73,13 +73,13 @@ int is_valid_id(u64 id) {
         break;
       }
     }
-    // the id is inValid, return false
+    // the id is invalid, return false
     if (isInvalid == 1) {
       return 0;
     }
   }
 
-  // didn't find an inValid arrangement of subNumbers, return true
+  // didn't find an invalid arrangement of subNumbers, return true
   return 1;
 }
 
